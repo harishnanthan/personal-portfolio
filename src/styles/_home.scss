@@ -1,0 +1,56 @@
+.home_wrapper {
+    width: 100vw;
+    height: calc(100vh - 72px);
+    background-color: $--color-background;
+
+    .home_wrapper__conatainer {
+        max-width: 55rem;
+        height: 100%;
+        margin: auto;
+
+        .home_wrapper__header {
+            color: $--color-main-text-gray;
+            font-weight: bolder;
+            font-size: 1.7rem;
+            padding-top: 5%;
+        }
+
+        .home_wrapper__introtext {
+            padding: 2em 0 0 0;
+            color: $--color-sub-text-gray;
+
+            div {
+                padding: 1em 0;
+                line-height: 2.5;
+            }
+        }
+
+        .home_wrapper_contact {
+            margin-top: 5em;
+            display: flex;
+            align-items: center;
+            gap: 2em;
+
+            .home_wrapper_contact__links {
+                display: flex;
+                gap: 1.5em;
+
+                a {
+                    svg {
+                        width: 28px;
+                    }
+                }
+            }
+
+            .home_wrapper_contact__email {
+                a {
+                    color: $--color-sub-text-gray-highlight;
+                    background-color: $--color-nav-border-bottom;
+                    text-decoration: none;
+                    padding: .7em 1.5em;
+                    border-radius: 8vmax;
+                }
+            }
+        }
+    }
+}
