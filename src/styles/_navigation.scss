@@ -8,14 +8,18 @@
     justify-content: space-between;
     align-items: center;
 
+    .navigation_wrapper__left{
+        color: $--color-main-text-gray;
+    }
+
     .navigation_wrapper__right {
         .navigation_wrapper__right___links {
             list-style: none;
             display: flex;
-
+            gap: 2px;
             a {
                 color: $--color-sub-text-gray;
-                padding: .7em 1.2em;
+                padding: .3em 1.2em;
                 cursor: pointer;
                 border-radius: 8px;
                 text-decoration: none;
