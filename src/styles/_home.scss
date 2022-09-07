@@ -1,3 +1,15 @@
+.navigation_wrapper__color {
+    width: 100%;
+    height: 3px;
+    background: rgb(121, 9, 100);
+    background: linear-gradient(-45deg, #EE7752, #e73c7e, #23A6d5, #23D5AB);
+    background-size: 400% 480%;
+    position: fixed;
+    top: 0;
+    animation: grad 6s ease-in-out infinite;
+}
+
+//home
 .home_wrapper {
     width: 100vw;
     height: calc(100vh - 72px);
@@ -53,5 +65,19 @@
                 }
             }
         }
+    }
+}
+
+@keyframes grad {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
     }
 }
