@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/Home/Home";
 import Topbar from "./components/Navigation/Topbar";
 import About from "./components/About/About";
+import Project from "./components/Projects/Project";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Project />} />
       </Routes>
     </div>
   );
