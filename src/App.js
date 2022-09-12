@@ -11,7 +11,7 @@ function App() {
       <Topbar />
       <Navigation />
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Project />} />
       </Routes>
