@@ -9,7 +9,7 @@ import "./styles/index.scss";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={'personal-portfolio'}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
