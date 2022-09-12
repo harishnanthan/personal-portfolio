@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/harishnanthan/personal-portfolio/static/css/main.30ced3d0.css",
-    "main.js": "/harishnanthan/personal-portfolio/static/js/main.96bbb108.js",
-    "static/js/787.1ed0c42c.chunk.js": "/harishnanthan/personal-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/MonoLisa-Bold.otf": "/harishnanthan/personal-portfolio/static/media/MonoLisa-Bold.2560e7eddc375ffbe179.otf",
-    "static/media/MonoLisa-Regular.otf": "/harishnanthan/personal-portfolio/static/media/MonoLisa-Regular.4ec1cbcb13c98e690a55.otf",
-    "static/media/github.svg": "/harishnanthan/personal-portfolio/static/media/github.162269c7b8dafc7b05f1514022e3f867.svg",
-    "static/media/twitter.svg": "/harishnanthan/personal-portfolio/static/media/twitter.965901d66fd1aeb1c9ace291a58143db.svg",
-    "static/media/linkedin.svg": "/harishnanthan/personal-portfolio/static/media/linkedin.dd64da12189e2d6bf48a0a3f64286002.svg",
-    "index.html": "/harishnanthan/personal-portfolio/index.html",
-    "main.30ced3d0.css.map": "/harishnanthan/personal-portfolio/static/css/main.30ced3d0.css.map",
-    "main.96bbb108.js.map": "/harishnanthan/personal-portfolio/static/js/main.96bbb108.js.map",
-    "787.1ed0c42c.chunk.js.map": "/harishnanthan/personal-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/personal-portfolio/static/css/main.295d8cd8.css",
+    "main.js": "/personal-portfolio/static/js/main.514965db.js",
+    "static/js/787.1ed0c42c.chunk.js": "/personal-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/MonoLisa-Bold.otf": "/personal-portfolio/static/media/MonoLisa-Bold.2560e7eddc375ffbe179.otf",
+    "static/media/MonoLisa-Regular.otf": "/personal-portfolio/static/media/MonoLisa-Regular.4ec1cbcb13c98e690a55.otf",
+    "static/media/github.svg": "/personal-portfolio/static/media/github.162269c7b8dafc7b05f1514022e3f867.svg",
+    "static/media/twitter.svg": "/personal-portfolio/static/media/twitter.965901d66fd1aeb1c9ace291a58143db.svg",
+    "static/media/linkedin.svg": "/personal-portfolio/static/media/linkedin.dd64da12189e2d6bf48a0a3f64286002.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.295d8cd8.css.map": "/personal-portfolio/static/css/main.295d8cd8.css.map",
+    "main.514965db.js.map": "/personal-portfolio/static/js/main.514965db.js.map",
+    "787.1ed0c42c.chunk.js.map": "/personal-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30ced3d0.css",
-    "static/js/main.96bbb108.js"
+    "static/css/main.295d8cd8.css",
+    "static/js/main.514965db.js"
   ]
 }
