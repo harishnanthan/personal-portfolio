@@ -1,7 +1,7 @@
 import React from 'react'
 
 function ProjectCard(props) {
-    const { src, title, description, teckStack, link } = props
+    const { title, description, teckStack, link } = props
     return (
         <div className='projectCard_wrapper'>
             <img src='http://unsplash.it/880/500?gravity=center' alt='' />
