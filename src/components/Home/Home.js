@@ -4,6 +4,8 @@ import { headingText, subHeadingText, introsubText } from './Home.constants'
 import { ReactComponent as LinkedIn } from '../../svg/linkedin.svg'
 import { ReactComponent as Twitter } from '../../svg/twitter.svg'
 import { ReactComponent as Github } from '../../svg/github.svg'
+//import component
+import Warning from '../Warning'
 
 const Heading = headingText => <h1>{headingText}</h1>
 
@@ -52,6 +54,7 @@ const ContactLinks = () => (
 function Home() {
   return (
     <div className='home_wrapper'>
+      <Warning/>
       <div className='home_wrapper__conatainer'>
         {HomeContent()}
         {ContactLinks()}
