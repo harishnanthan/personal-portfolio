@@ -1,0 +1,50 @@
+.project_wrapper {
+    background-color: $--color-background;
+    color: $--color-sub-text-gray-highlight;
+
+    .project_wrapper__container {
+        max-width: 880px;
+        margin: auto;
+
+        .project_wrapper__header {
+            padding: 3em 0;
+
+            h1 {
+                font-weight: bolder;
+                font-size: 2.3rem;
+                padding: .5em 0;
+            }
+
+            .project_wrapper__header___subhead {
+                color: $--color-sub-text-gray;
+                padding-bottom: 1em;
+            }
+        }
+
+        .projects_wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 3em;
+
+            .projectCard_wrapper {
+                .projectCard_wrapper__details {
+                    padding: 1em 0;
+                    width: 80%;
+                    margin: auto;
+
+                    .projectCard_wrapper__title {
+                        padding: .3em 0;
+                        font-size: 2rem;
+                    }
+
+                    p {
+                        color: $--color-sub-text-gray;
+                        font-size: .9rem;
+                        line-height: 1.5;
+                    }
+
+                }
+            }
+        }
+    }
+}
